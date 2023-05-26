@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create form</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Html dummy form</legend>
+    <p>Html form is collective data of user input</p>
+    <form>
+        <label for="email">User Id</label>
+        <input type="text" id="email" placeholder="example@gmail.com">
+        <br>
+        <br>
+       
+        <label for="password">Password</label>
+        <input type="text" id="password">
+        <!-- IN input id is necessary -->
+
+        <br>
+        <br>
+
+        <input type="button" value="click here">
+        <br><br><br><br>
+
+
+        <!-- <button>Submit</button> -->
+        <!-- if we create checkbox then we need to create a input with type checkbox -->
+        <form>
+            <label for="datepicker">Choose date: </label>
+            <input type="date" id="datepicker">
+            <br><br>
+            <label for="selector">CHoose your dish:</label>
+            <select name="dishes" id="selector1">
+            <option value="maggi">Maggi</option>
+            <option value="kurkure">Kure-kure</option>
+            <option value="chips">Chips</option>
+        </select>
+        <br><br>
+
+
+        <button>Submit</button>
+        <br><br>
+        <textarea name="textarea1" id="textarea1" cols="15" rows="2" placeholder="Enter text here"></textarea>
+
+           <br><br>
+          
+
+        </form>
+
+    </form>
+    </fieldset>
+    <br><br>
+    <form>
+        <label for="textfield">Textfield:</label>
+        <input type="textfield" name="textarea1">
+
+        <br>
+        <label for="button1">Button:</label>
+        <input type="submit" name="button1" id="button1" value="Subscribe">
+
+        <br><br><br>
+        <label for="radio-btn0">Male</label>
+        <input type="radio" name="radio1" id="radio-btn0" value="male">
+        <label for="radio-btn1">Female</label>
+        <input type="radio" name="radio1" id="radio-btn1" value="female">
+        <label for="radio-btn2">Other</label>
+        <input type="radio" name="radio1" id="radio-btn2" value="other">
+    </form>
+    <br><br><br>
+    <form>
+        <fieldset>
+            <legend>What is your prefer Language ?</legend>
+        <label for="radio-btn0">English</label>
+        <input type="checkbox" name="radio1" id="radio-btn0" value="male">
+        <label for="radio-btn1">Hindi</label>
+        <input type="checkbox" name="radio1" id="radio-btn1" value="female">
+        <label for="radio-btn2">Other</label>
+        <input type="checkbox" name="radio1" id="radio-btn2" value="other">
+        </fieldset>
+        <br><br><br>
+        <!-- Choose File format -->
+        <label for="fileselect">Upload:</label>
+        <input type="file" name="filesrlect1" id="fileselect">
+
+    </form>
+    
+</body>
+</html>
